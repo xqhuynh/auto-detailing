@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem 2.5rem;
+}
+
+.logo {
+  margin-right: auto;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.logo-img {
+  width: 15%;
+}
+
+.navbar a {
+  padding-left: 2rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
