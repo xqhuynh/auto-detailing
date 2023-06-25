@@ -41,17 +41,22 @@ h1 {
 }
 
 .hero-banner {
-  background-image: url('/images/wash.jpg');
+  background-image: url('/images/hero.jpg');
   background-size: cover;
   background-position: center;
   text-align: center;
   color: #fff;
-  padding: 100px 0;
+  padding: 200px 0;
 }
 
 .hero-banner h2 {
   font-size: 36px;
   margin-bottom: 20px;
+}
+
+.services-header {
+  text-align: center;
+  margin-top: 40px;
 }
 
 .services-container {
