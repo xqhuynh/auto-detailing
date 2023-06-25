@@ -46,7 +46,11 @@ h1 {
   background-position: center;
   text-align: center;
   color: #fff;
-  padding: 200px 0;
+  padding: 150px 0;
+}
+
+.hero-banner p {
+  padding-bottom: 150px;
 }
 
 .hero-banner h2 {
@@ -150,18 +154,20 @@ h1 {
 }
 
 footer {
-  background-color: #333;
+  background-color: #000;
   color: #fff;
   padding: 20px;
   text-align: center;
+  margin-top: 50px;
 }
 
 .footer-columns {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .footer-column {
@@ -183,6 +189,10 @@ footer {
 .footer-social a {
   color: #fff;
   text-decoration: none;
+}
+
+footer img {
+  background-color: white;
 }
 
 .footer-address {
